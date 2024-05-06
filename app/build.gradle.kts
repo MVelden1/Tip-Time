@@ -53,6 +53,7 @@ android {
     }
     buildFeatures {
         compose = true
+        aidl = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = rootProject.extra["compose_compiler_version"].toString()
